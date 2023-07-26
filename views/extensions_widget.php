@@ -20,8 +20,8 @@ $(document).on('appUpdate', function(e, lang) {
 		box.empty();
 		if(data.length){
 			$.each(data, function(i,d){
-				var badge = '<span class="badge badge-light pull-right">'+d.count+'</span>';
-                box.append('<a href="'+appUrl+'/show/listing/extensions/extensions/#'+d.name+'" class="list-group-item">'+d.name+badge+'</a>')
+				var badge = '<span class="badge badge-secondary pull-right">'+d.count+'</span>';
+                box.append('<a href="'+appUrl+'/show/listing/extensions/extensions/#'+d.name+'" class="list-group-item list-group-item-action">'+d.name+badge+'</a>')
 			});
 		}
 		else{

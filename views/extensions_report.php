@@ -4,9 +4,9 @@
 	)
 )); ?>
 
-<div class="container">
+<div class="container-fluid">
 
-  <div class="row">
+  <div class="row pt-4">
 
 	  <?php $widget->view($this, 'extensions'); ?>
 	  <?php $widget->view($this, 'extensions_developer'); ?>
