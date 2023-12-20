@@ -9,6 +9,19 @@
     "bundle_id": "Bundle ID",
     "version": "Version",
     "developer": "Developer",
+    "developer_widget": "Extension Developer",
     "report": "Extensions Report",
-    "teamid": "Team Identifier"
+    "teamid": "Team Identifier",
+    "teamid_widget": "Extension Team Identifier",
+    "boot_uuid": "Boot UUID",
+    "developer_mode": "Developer Mode",
+    "extension_policies": "System Extension Policies",
+    "state": "System Extension State",
+    "categories": "System Extension Categories",
+    "activated_enabled": "Activated Enabled",
+    "activated_disabled": "Activated Disabled",
+    "terminated_waiting_to_uninstall_on_reboot": "Terminated Waiting To Uninstall on Reboot",
+    "activated_waiting_for_user": "Activated Waiting For User",
+    "waiting_for_approval": "Waiting For Approval",
+    "blocked": "Blocked"
 }

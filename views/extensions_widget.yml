@@ -1,0 +1,9 @@
+type: scrollbox
+widget_id: extensions-widget
+api_url: /module/extensions/get_scroll_widget/bundle_id
+i18n_title: extensions.clienttab
+icon: fa-puzzle-piece
+listing_link: /show/listing/extensions/extensions
+search_key: bundle_id
+i18n_empty_result: no_data
+badge: count

@@ -1,0 +1,18 @@
+i18n_title: extensions.reporttitle
+js_link: module/extensions/js/extensions
+not_null_column: bundle_id
+table:
+  - column: machine.computer_name
+    i18n_header: listing.computername
+    formatter: clientDetail
+    tab_link: extensions-tab
+  - column: reportdata.serial_number
+    i18n_header: serial
+  - {i18n_header: extensions.name, column: extensions.name}
+  - {i18n_header: extensions.bundle_id, column: extensions.bundle_id}
+  - {i18n_header: extensions.version, column: extensions.version}
+  - {i18n_header: extensions.state, column: extensions.state, formatter: formatExtensionsState}
+  - {i18n_header: extensions.developer, column: extensions.developer}
+  - {i18n_header: extensions.teamid, column: extensions.teamid}
+  - {i18n_header: extensions.path, column: extensions.path}
+  - {i18n_header: extensions.executable, column: extensions.executable}

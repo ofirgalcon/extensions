@@ -1,0 +1,9 @@
+type: scrollbox
+widget_id: extensions-teamid-widget
+api_url: /module/extensions/get_scroll_widget/teamid
+i18n_title: extensions.teamid_widget
+icon: fa-group
+listing_link: /show/listing/extensions/extensions
+search_key: teamid
+i18n_empty_result: no_data
+badge: count

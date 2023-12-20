@@ -1,0 +1,22 @@
+client_tabs:
+    extensions-tab:
+        view: extensions_tab
+        i18n: extensions.clienttab
+        badge: extensions-cnt
+listings:
+    extensions:
+        view: extensions_listing
+        i18n: extensions.clienttab
+reports:
+    extensions_report:
+        view: extensions_report
+        i18n: extensions.report
+widgets:
+    extensions:
+        view: extensions_widget
+    extensions_developer:
+        view: extensions_developer_widget
+    extensions_teamid:
+        view: extensions_teamid_widget
+    extensions_state:
+        view: extensions_state_widget

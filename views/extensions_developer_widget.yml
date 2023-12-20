@@ -1,0 +1,9 @@
+type: scrollbox
+widget_id: extensions-developer-widget
+api_url: /module/extensions/get_scroll_widget/developer
+i18n_title: extensions.developer_widget
+icon: fa-coffee
+listing_link: /show/listing/extensions/extensions
+search_key: developer
+i18n_empty_result: no_data
+badge: count
