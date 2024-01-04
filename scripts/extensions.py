@@ -77,7 +77,7 @@ def get_systemextensions_info():
                             extension_policy["allow_user_overrides"] = to_bool(policy[item])
                         elif item == "allowedExtensionTypes" and len(policy[item]) > 0:
                             extension_policy['allowed_extension_types'] = ""
-                            for allowed_type in extension[item]:
+                            for allowed_type in policy[item]:
                                 extension_policy['allowed_extension_types'] = policy[item][allowed_type] + ", " + extension_policy['allowed_extension_types']
                             try:
                                 extension_policy['allowed_extension_types'] = policy['allowed_extension_types'][:-2]
